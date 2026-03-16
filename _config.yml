@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "zh-CN"
 rtl                      :
-title                    : "慧珍的小窝"
+title                    : "有点空"
 title_separator          : "-"
 subtitle                 : "充满好奇 | 记录生活"
-name                     : "姜慧珍"
+name                     : "不周山"
 description              : "看看你都在做什么"
 url                      :
 baseurl                  :
@@ -31,7 +31,7 @@ masthead_title           :
 breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : true
-copyright                : "姜慧珍"
+copyright                : "不周山"
 copyright_url            :
 comments:
   provider               : false
@@ -67,7 +67,7 @@ baidu_site_verification  :
 # Social Sharing
 social:
   type                   : Person
-  name                   : "姜慧珍"
+  name                   : "不周山"
 
 # Analytics
 analytics:
@@ -75,15 +75,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "姜慧珍"
+  name             : "不周山"
   avatar           : "https://avatars.githubusercontent.com/jiang97h"
-  bio              : "充满好奇"
-  location         : "天上"
+  bio              : "折腾一下把，开心就够了"
+  location         : "江西"
   email            : 1846301202@qq.com
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jiang97h"
+    - label: "微信"
+      icon: "fab fa-fw fa-weixin"
+      url: "weixin://buzhoushan23"
 
 # Site Navigation（汉化导航栏）
 nav:
@@ -102,6 +105,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jiang97h"
+    - label: "微信"
+      icon: "fab fa-fw fa-weixin"
+      url: "weixin://buzhoushan23"
   since: "2026"
 
 # Reading Files
