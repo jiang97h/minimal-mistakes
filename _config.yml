@@ -16,71 +16,47 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "zh-CN"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "TO be"
+rtl                      :
+title                    : "慧珍的小窝"
 title_separator          : "-"
-subtitle                 : # 什么都想试试
+subtitle                 : "充满好奇 | 记录生活"
 name                     : "姜慧珍"
 description              : "看看你都在做什么"
-url                      : # the base hostname & protocol for your site e.g. "https://minimal-mistakes-six.vercel.app"
-baseurl                  : # the subpath of your site, e.g. ""
-repository               : # GitHub username/repo-name e.g. "jiang97h/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+url                      :
+baseurl                  :
+repository               :
+teaser                   :
+logo                     :
+masthead_title           :
+breadcrumbs              : true
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+enable_copy_code_button  : true
+copyright                : "姜慧珍"
+copyright_url            :
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : false
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server               :
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    num_posts            :
+    colorscheme          :
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                :
   giscus:
-    repo_id              : # Shown during giscus setup at https://giscus.app
-    category_name        : # Full text name of the category
-    category_id          : # Shown during giscus setup at https://giscus.app
-    discussion_term      : # "pathname" (default), "url", "title", "og:title"
-    reactions_enabled    : # '1' for enabled (default), '0' for disabled
-    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
-    strict               : # 1 for enabled, 0 for disabled (default)
-    input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
-    emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    theme                :
   staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               :
 reCaptcha:
   siteKey                :
-  secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
-lunr:
-  search_within_pages    : # true, false (default)
-algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  hide                   : true
+search                   : true
+search_full_content      : true
+search_provider          : lunr
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -89,76 +65,44 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-twitter:
-  username               :
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 : # Open Graph/Twitter default site image
-og_image_alt             : # Alt text for Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "姜慧珍"
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
-
+  provider               : false
 
 # Site Author
 author:
   name             : "姜慧珍"
-  avatar           : # path of avatar image, e.g. "https://avatars.githubusercontent.com/jiang97h"
+  avatar           : "https://avatars.githubusercontent.com/jiang97h"
   bio              : "充满好奇"
   location         : "天上"
   email            : 1846301202@qq.com
-  # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-square-envelope"
-    #   url: "mailto:your.name@email.com"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://your-website.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-square-x-twitter"
-    #   url: "https://twitter.com/"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-square-facebook"
-    #   url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jiang97h"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+
+# Site Navigation（汉化导航栏）
+nav:
+  - title: "文章"
+    url: /posts/
+  - title: "分类"
+    url: /categories/
+  - title: "标签"
+    url: /tags/
+  - title: "关于"
+    url: /about/
 
 # Site Footer
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-square-x-twitter"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-square-facebook"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jiang97h"
-    # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
-    # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
   since: "2026"
-
 
 # Reading Files
 include:
@@ -190,14 +134,13 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs
+  - /test
 keep_files:
   - .git
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
 
 # Conversion
 markdown: kramdown
@@ -205,7 +148,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -218,28 +160,20 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Shanghai
 
-
-# Pagination with jekyll-paginate
-paginate: 5 # amount of posts to show
+# Pagination
+paginate: 5
 paginate_path: /page:num/
 
-# Pagination with jekyll-paginate-v2
-# See https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-#   for configuration details
 pagination:
-  # Set enabled to true to use paginate v2
-  # enabled: true
   debug: false
   collection: 'posts'
   per_page: 10
@@ -249,14 +183,11 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
   category: 'posts'
-  tag: ''
-  locale: ''
   trail:
     before: 2
     after: 2
 
-
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -264,7 +195,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -272,48 +202,22 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# show_taxonomy: false  # set to false to hide tag/category lists on posts
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -324,4 +228,3 @@ defaults:
       comments: false
       share: true
       related: true
-
