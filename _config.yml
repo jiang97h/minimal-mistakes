@@ -84,9 +84,9 @@ author:
     - label: "微信"
       icon: "fab fa-fw fa-weixin"
       url: "weixin://buzhoushan23"
-    - label: "邮箱"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:1846301202@qq.com"
+    - label: "QQ"
+      icon: "fab fa-fw fa-qq"
+      url: "tencent://message/?uin=1846301202"
 
 # Site Navigation（汉化导航栏）
 nav:
