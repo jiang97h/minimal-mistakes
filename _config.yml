@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "catppuccin_latte", "catppuccin_mocha"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+title                    : "TO be"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+subtitle                 : # 什么都想试试
+name                     : "姜慧珍"
+description              : "看看你都在做什么"
+url                      : # the base hostname & protocol for your site e.g. "https://minimal-mistakes-six.vercel.app"
+baseurl                  : # the subpath of your site, e.g. ""
+repository               : # GitHub username/repo-name e.g. "jiang97h/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -114,55 +114,50 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "姜慧珍"
+  avatar           : # path of avatar image, e.g. "https://avatars.githubusercontent.com/jiang97h"
+  bio              : "充满好奇"
+  location         : "天上"
+  email            : 1846301202@qq.com
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
-      # url: "https://facebook.com/"
+    links:
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-square-envelope"
+    #   url: "mailto:your.name@email.com"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://your-website.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-square-x-twitter"
+    #   url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-square-facebook"
+    #   url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/jiang97h"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-square-x-twitter"
-      # url:
-      # rel: "me"  # optional: adds rel attribute (e.g. for IndieWeb web sign-in)
-    - label: "Facebook"
-      icon: "fab fa-fw fa-square-facebook"
-      # url:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-square-x-twitter"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-square-facebook"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
+      url: "https://github.com/jiang97h"
+    # - label: "GitLab"
+    #   icon: "fab fa-fw fa-gitlab"
+    # - label: "Bitbucket"
+    #   icon: "fab fa-fw fa-bitbucket"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+  since: "2026"
 
 
 # Reading Files
@@ -232,7 +227,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Pagination with jekyll-paginate
@@ -326,7 +321,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: false
       share: true
       related: true
 
